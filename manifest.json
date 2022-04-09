@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "Ads  Skipper",
+  "description": "Extension by sherry",
+  "version": "1.0.0",
+  "content_scripts": [{
+    "matches": ["https://*.youtube.com/*"],
+    "js": ["skipper.js"]
+  }]
+}
